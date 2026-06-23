@@ -1,0 +1,51 @@
+# Django
+*.pyc
+__pycache__/
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+*.sqlite3
+
+# Environment
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Media
+media/qr_codes/*
+media/profiles/*
+!media/.gitkeep
+
+# Static
+static/
+!static/.gitkeep
+
+# Database
+*.db
+
+# Logs
+*.log
+logs/
+
+# Celery
+celerybeat-schedule
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# Uploads
+uploads/
